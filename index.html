@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="port.css">
+    <style>
+        body {
+            margin: 0;
+
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            overflow: auto;
+            background-image: url('port_imgs/bg-nav.jpg');
+
+        }
+
+        ul li {
+            float: left;
+            width: 175px;
+            text-align: center;
+            transition: 0.8s;
+            border-radius: 50%;
+
+        }
+
+        ul li a {
+
+            font-size: 30px;
+            line-height: 100px;
+            color: white;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+        ul li:hover a {
+            background-color: transparent;
+            font-size: 22px;
+            color: goldenrod;
+            font-weight: 600;
+        }
+
+        ul li:hover {
+            background-color: rebeccapurple;
+            color: black;
+            box-shadow: 2px 2px;
+        }
+
+        .p_img {
+            width: 100px;
+            height: 120px;
+            padding: 5px;
+            border-radius: 50%;
+            float: left;
+            border: 3px solid black;
+        }
+
+        .who {
+            width: 100%;
+            height: 600px;
+            overflow: hidden;
+
+        }
+
+        .who h1 {
+            font-family: 'Poppins', sans-serif;
+            padding-left: 5%;
+            font-size: 35px;
+            color: rgb(23, 59, 108);
+        }
+
+        .who h2 {
+            font-family: 'Poppins', sans-serif;
+            padding-left: 5%;
+            font-size: 20px;
+        }
+
+        .who h3 {
+            font-family: 'Poppins', sans-serif;
+            padding: 2% 2%;
+            font-size: 25px;
+            color: rgb(23, 59, 108);
+        }
+
+        .who h4 {
+            font-family: 'Poppins', sans-serif;
+            padding: 2% 2%;
+            font-size: 25px;
+        }
+
+        .image1 {
+            width: 310px;
+            height: 420px;
+            margin: 2% 5%;
+            border: 2px solid black;
+            float: left;
+        }
+
+        .List {
+            font-size: 22px;
+            padding: 1% 2%;
+        }
+
+        .port {
+            width: 100%;
+            height: 500px;
+
+        }
+
+        .port h2 {
+            font-family: 'Poppins', sans-serif;
+            padding-left: 5%;
+            font-size: 35px;
+            color: rgb(23, 59, 108);
+        }
+
+        .port h3 {
+            font-family: 'Poppins', sans-serif;
+            padding-left: 5%;
+            font-size: 20px;
+        }
+
+        .port p {
+            font-family: cursive;
+            font-size: 20px;
+            font-weight: 550;
+            text-align: center;
+            color: rgb(23, 59, 108);
+        }
+
+        .port_img {
+            width: 400px;
+            height: 300px;
+
+        }
+
+        .resume {
+            width: 100%;
+            height: 800px;
+        }
+
+        .banner {
+            overflow: hidden;
+            width: 100%;
+            height: 850px;
+            background-image: url('port_imgs/IMG_2574.JPG');
+            background-size: cover;
+            background-position: 0 60%;
+        }
+
+        .banner h1 {
+            font-size: 80px;
+            font-family: 'Poppins', sans-serif;
+            color: white;
+            float: right;
+            padding: 15% 15% 0 15%;
+            text-shadow: 13px 13px 8px black;
+        }
+
+        .banner h2 {
+            font-size: 30px;
+            font-family: 'Poppins', sans-serif;
+            color: white;
+            padding: 25% 0 0 55%;
+
+            text-shadow: 13px 13px 5px black;
+        }
+
+        .skill {
+            width: 100%;
+            height: 700px;
+            background-color: white;
+        }
+
+        .skill h2 {
+            font-family: 'Poppins', sans-serif;
+            padding-top: 5%;
+            padding-left: 5%;
+            font-size: 35px;
+            color: rgb(23, 59, 108);
+        }
+
+        .skill h3 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            padding-left: 10%;
+        }
+        .skill p {
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            padding-left: 5%;
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+
+        .container {
+           margin: auto;
+            width: 80%;
+            background-color: #ddd;
+        }
+
+        .skills {
+            text-align: right;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: white;
+        }
+
+        .html {
+            width: 90%;
+            background-color: #4CAF50;
+        }
+
+        .css {
+            width: 70%;
+            background-color: #2196F3;
+        }
+
+        .c_prog {
+            width: 75%;
+            background-color: #f44336;
+        }
+
+        .net {
+            width: 60%;
+            background-color: #808080;
+        }
+    </style>
+
+</head>
+
+<body>
+    <ul>
+        <img class="p_img" src="port_imgs/RMP_6102.JPG">
+        <li><a href="#i0">Home</a></li>
+        <li><a href="#i1">About</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#i3">Portfolio</a></li>
+        <li><a href="#">Resume</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+    <div id="i0" class="banner">
+        <div>
+            <h1>Arpit Patel</h1>
+        </div>
+        <div>
+            <h2> <u> I'm</u> WEB Developer..</h2>
+        </div>
+    </div>
+
+
+    <div id="i1" class="who">
+        <h1><u>who</u> am I..?</h1>
+        <h2>Hello I am <strong>Arpit Patel</strong> a <strong>Front-End Web Developer</strong>
+            and<strong>Flutter</strong> enthusiast.</h2>
+
+        <img class="image1" src="port_imgs/RMP_6098.JPG">
+        <h3><u> Front-End</u> Web Developer.</h3>
+
+        <div class="List" style="float: left;">
+            <ul1>
+                <p><strong>Birthday:</strong>02<sup>nd</sup>February,1998</p>
+                <p><strong>Phone</strong> +91-8347094782</p>
+                <p><strong>City:</strong>Vadodara, Gujarat, India.</p>
+            </ul1>
+        </div>
+
+        <div class="List" style="float: left;">
+            <ul1>
+                <p><strong>Age:</strong>22</p>
+                <p><strong>Degree:</strong>Completed (B.Tech Computer Eng.)</p>
+                <p><strong>Email:</strong>arpit221998@gmail.com</p>
+            </ul1>
+        </div>
+
+    </div>
+
+    <div class="skill">
+        <div>
+            <h2><u> Ski</u>lls</h2>
+        </div>
+
+        <div>
+            <p>I have Personal Skills like Creative Spirit, Organized, Time Managment, Team Player, Fast
+                Learner, Motivated, Anger Managment,Networking Skills, Good Communication Skill, Can do
+                multi-task.</p>
+        </div>
+
+        <h3>HTML</h3>
+        <div class="container">
+            <div class="skills html">90%</div>
+        </div>
+
+        <h3>CSS</h3>
+        <div class="container">
+            <div class="skills css">70%</div>
+        </div>
+
+        <h3>C program</h3>
+        <div class="container">
+            <div class="skills c_prog"> 75% </div>
+        </div>
+
+        <h3>.NET</h3>
+        <div class="container">
+            <div class="skills net">60%</div>
+        </div>
+    </div>
+
+    <div id="i3" class="port">
+        <h2>
+            <u> Port</u>folio
+        </h2>
+
+        <h3>I made some Projects in my learning time and also for my PORTFOLIO. </h3>
+        <p><u> WEB</u></p>
+
+        <div style="float: left; padding-left: 18%;">
+            <a href="https://arpit2298.github.io/vegan-store/" target="_blank"><img class="port_img"
+                    src="port_imgs/my1.png"></a>
+        </div>
+
+        <div style="float: left;padding-left: 10%; ">
+            <a href="https://arpit2298.github.io/Mine-Templets/" target="_blank"><img class="port_img"
+                    src="port_imgs/my2.png"></a>
+        </div>
+
+
+    </div>
+
+    <div class="resume">
+
+    </div>
+</body>
+
+</html>
