@@ -2,439 +2,19 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <title>Arpit Patel | Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-
-    <style>
-        body{
-            margin: 0;
-        }
-
-        ul {
-            
-            height: 50px;
-            list-style-type: none;
-            margin: 0;
-            overflow: auto;
-            background-color:rgba(112, 128, 144, 0.61) ;
-            float: right;
-            position: relative;
-            top: 30px;
-            border-radius: 50px 0 0 50px;
-        }
-
-        ul li {
-            float: left;
-            width: 120px;
-            text-align: center;
-            transition: 0.8s;
-            border-radius: 10%;
-            
-        }
-
-        ul li a {
-            
-            font-size: 20px;
-            line-height: 50px;
-            color: black;
-            font-weight: 700;
-            text-decoration: none;
-            font-family: 'Poppins', sans-serif;
-            text-shadow: 2px 2px 2px lightblue;
-        }
-
-        ul li:hover a {
-            background-color: transparent;
-            font-size: 22px;
-            color: black;
-            font-weight: 600;
-            
-
-        }
-
-        ul li:hover {
-            
-            background-color:transparent;
-            
-            color: black;
-            box-shadow: 5px 2px 10px;
-        }
-
-        
-
-        .who {
-            width: 100%;
-            height: 600px;
-            overflow: hidden;
-            background-color:   #f5f5f5;
-            
-        }
-
-        .who h1 {
-            font-family: 'Poppins', sans-serif;
-            padding-left: 5%;
-            font-size: 35px;
-            color: darkslateblue;
-           
-        }
-
-        
-        .who h2 {
-            font-family: 'Poppins', sans-serif;
-            padding-left: 5%;
-            font-size: 20px;
-        }
-
-        .who h3 {
-            font-family: 'Poppins', sans-serif;
-            padding: 2% 2%;
-            font-size: 25px;
-            color:  darkslateblue;
-        }
-
-        .who h4 {
-            font-family: 'Poppins', sans-serif;
-            padding: 2% 2%;
-            font-size: 25px;
-        }
-
-        .image1 {
-            width: 310px;
-            height: 420px;
-            margin: 1% 5%;
-            
-            border: 4px outset grey;
-            float: left;
-        }
-
-        .List {
-            font-size: 22px;
-            padding: 1% 2%;
-            
-        }
-
-        .port {
-            width: 100%;
-            height: 500px;
-            background-color: #f5f5f5;
-            overflow: hidden;
-        }
-
-        .port a{
-            float: left;
-            padding: 0 2% 0 13%;
-        }
-
-       
-
-        .port h2 {
-            font-family: 'Poppins', sans-serif;
-            padding-left: 5%;
-            font-size: 35px;
-            color: darkslateblue;
-        }
-
-        .port h3 {
-            font-family: 'Poppins', sans-serif;
-            padding-left: 5%;
-            font-size: 20px;
-        }
-
-        .port p {
-            font-family: cursive;
-            font-size: 20px;
-            font-weight: 550;
-            text-align: center;
-            color:  darkslateblue;
-        }
-
-        .port_img {
-            width: 400px;
-            height: 300px;
-            margin-left: 15%;
-            background-image: url('port_imgs/my1.png');
-            background-size:cover;
-            background-repeat: no-repeat;
-            overflow: hidden;
-            position: absolute;
-        }
-        .port_img::before{
-            content: '';
-            width: 0px;
-            height: 0px;
-            position: absolute;
-            background-color: rgba(0, 0, 0, 0.658);
-            transition: 1s;
-            left: 50%;
-            top: 50%;
-            
-        }
-       
-        .port_img:hover::before{
-            width: 400px;
-            height: 300px;
-            left: 0;
-            top: 0;
-            
-        }
-
-        .port_img2 {
-            width: 400px;
-            height: 300px;
-            margin-left: 55%;
-            background-image: url('port_imgs/my2.png');
-            background-size:cover;
-            background-repeat: no-repeat;
-            overflow: hidden;
-            position: absolute;
-        }
-        .port_img2::before{
-            content: '';
-            width: 0px;
-            height: 0px;
-            position: absolute;
-            background-color:  rgba(0, 0, 0, 0.658);
-            
-            transition: 1s;
-            left: 50%;
-            top: 50%;
-
-        }
-       
-        .port_img2:hover::before{
-            width: 400px;
-            height: 300px;
-            left: 0;
-            top: 0;
-            
-        }
-
-        .banner {
-            overflow: hidden;
-            width: 100%;
-            height: 800px;
-            background-image: url('port_imgs/IMG_2574.JPG');
-            background-size: cover;
-            background-position: 0 60%;
-            
-        }
-
-        .banner h1 {
-            font-size: 80px;
-            font-family: 'Poppins', sans-serif;
-            color: white;
-            float: right;
-            padding: 15% 15% 0 15%;
-            text-shadow: 13px 13px 8px black;
-        }
-
-        .banner h2 {
-            font-size: 30px;
-            font-family: 'Poppins', sans-serif;
-            color: white;
-            padding: 25% 0 0 55%;
-
-            text-shadow: 13px 13px 5px black;
-        }
-
-        .skill {
-            overflow: hidden;
-            width: 100%;
-            height: 700px;
-            background-color: #f5f5f5;
-            
-        }
-
-        .skill h2 {
-            font-family: 'Poppins', sans-serif;
-            padding-top: 5%;
-            padding-left: 5%;
-            font-size: 35px;
-            color: darkslateblue;
-        }
-
-        .skill h3 {
-            font-family: 'Poppins', sans-serif;
-            font-size: 18px;
-            padding-left: 10%;
-        }
-        .skill p {
-            font-family: 'Poppins', sans-serif;
-            font-size: 20px;
-            padding-left: 5%;
-        }
-
-        
-
-
-        .container {
-           margin: auto;
-            width: 80%;
-            background-color: #ddd;
-        }
-
-        .skills {
-            
-            text-align: right;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            color: white;
-        }
-
-        .html {
-            width: 90%;
-            background-color: #4CAF50;
-        }
-
-        .css {
-            width: 70%;
-            background-color: #2196F3;
-        }
-
-        .c_prog {
-            width: 75%;
-            background-color: #f44336;
-        }
-
-        .net {
-            width: 60%;
-            background-color: #808080;
-        }
-
-        .resume {
-            width: 100%;
-            height: 900px;
-            background-color: #f5f5f5;
-            overflow: hidden;
-        }
-
-        .resume h2 {
-            font-family: 'Poppins', sans-serif;
-            padding-top: 5%;
-            padding-left: 5%;
-            font-size: 35px;
-            color: darkslateblue;
-        }
-
-        .resume h3 {
-            font-family: 'Poppins', sans-serif;
-            padding-top: 2%;
-            padding-left: 15%;
-            font-size: 25px;
-            color: black;
-            
-        }
-
-        .resume h4 {
-            font-family: 'Poppins', sans-serif;
-            margin-block-end: 0;
-            padding-left: 15%;
-            font-size: 20px;
-            color: black;
-            
-        }
-
-        .resume h5 {
-            font-family: 'Poppins', sans-serif;
-            margin-block-end: 0;
-            padding-left: 17%;
-            font-size: 15px;
-            color: black;
-            
-        }
-        .resume p{
-            font-family: 'Poppins', sans-serif;
-            
-            padding-left: 17%;
-            font-size: 15px;
-            color: black;
-            
-        }
-
-        .contact{
-            width: 100%;
-            height: 700px;
-            background-color:  #f5f5f5;
-            overflow: hidden;
-        }
-
-        .contact h2 {
-            font-family: 'Poppins', sans-serif;
-            padding-left: 5%;
-            font-size: 35px;
-            color: darkslateblue;
-        }
-        .info{
-            font-size: 15px;
-            padding: 1%;
-            margin: 1% 0 0 17%;
-            width: 50%;
-            border-radius: 5px;
-            border: 1px solid #e5e6ec;
-        }
-
-        .btn_foot{
-            background-color: #166d5a;
-            border-radius: 4px;
-            margin-left: 17%;
-            margin-top: 2%;
-            width: 200px;
-            height: 40px;
-            font-size: 15px;
-            font-weight: 500;
-            color: white;
-            border: 1px solid #166d5a;
-        }
-
-        .who i::before{
-            color: rgba(0, 0, 0, 0.767);
-        }
-        .who :hover i::before{
-            color: rgb(248, 29, 29);
-        }
-
-        .skill i::before{
-            color: rgba(0, 0, 0, 0.767);
-        }
-        .skill :hover i::before{
-            color: rgb(248, 29, 29);
-        } 
-
-        .port i::before{
-            color: rgba(0, 0, 0, 0.767);
-        }
-        .port :hover i::before{
-            color: rgb(248, 29, 29);
-        }
-
-        .resume i::before{
-            color: rgba(0, 0, 0, 0.767);
-        }
-        .resume :hover i::before{
-            color: rgb(248, 29, 29);
-        } 
-
-        .contact i::before{
-            color: rgba(0, 0, 0, 0.767);
-        }
-        .contact :hover i::before{
-            color: rgb(248, 29, 29);
-        } 
-
-        
-    </style>
-
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    
+
 
     <div id="i0" class="banner">
 
         <ul>
-        
+
             <li><a href="#i0">Home</a></li>
             <li><a href="#i1">About</a></li>
             <li><a href="#i2">Skills</a></li>
@@ -452,9 +32,9 @@
     </div>
 
     <div id="i1" class="who">
-        <h1><i class="fas fa-user-secret" "></i> <u>who</u> am I..?</h1>
-        <h2>Hello I am <strong>Arpit Patel</strong> a <strong>Front-End Web Developer</strong>
-            and<strong>Flutter</strong> enthusiast.</h2>
+        <h1><i class="fas fa-user-secret"></i> <u>who</u> am I..?</h1>
+        <h2>Hello I am <strong>Arpit Patel</strong> a <strong>Front-End Web Developer</strong> and
+            <strong>Flutter</strong> enthusiast.</h2>
 
         <img class="image1" src="port_imgs/RMP_6098.JPG">
         <h3><u> Front-End</u> Web Developer.</h3>
@@ -462,7 +42,7 @@
         <div class="List" style="float: left;">
             <ul1>
                 <p><strong>Birthday:</strong> 02<sup>nd</sup>February,1998</p>
-                <p><strong>Phone:</strong>  +91-8347094782</p>
+                <p><strong>Phone:</strong> +91-8347094782</p>
                 <p><strong>City:</strong> Vadodara, Gujarat, India.</p>
             </ul1>
         </div>
@@ -476,16 +56,15 @@
         </div>
 
     </div>
-    
+
     <div id="i2" class="skill">
         <div>
-            <h2><i class="fas fa-cog fa-spin" ></i> <u>Ski</u>lls</h2>
+            <h2><i class="fas fa-cog fa-spin"></i> <u>Ski</u>lls</h2>
         </div>
 
         <div>
-            <p>I have Personal Skills like Creative Spirit, Organized, Time Managment, Team Player, Fast
-                Learner, Motivated, Anger Managment,Networking Skills, Good Communication Skill, Can do
-                multi-task.</p>
+            <p>I have Personal Skills like Creative Spirit, Organized, Time Managment, Team Player, Fast Learner, Motivated, Anger Managment,Networking Skills, Good Communication Skill, Can do multi-task.
+            </p>
         </div>
 
         <h3>HTML</h3>
@@ -495,7 +74,7 @@
 
         <h3>CSS</h3>
         <div class="container">
-            <div class="skills css">70%</div>
+            <div class="skills css">85%</div>
         </div>
 
         <h3>C program</h3>
@@ -518,10 +97,28 @@
         <p><u> WEB</u></p>
 
         <div class="port_img">
-           
+            <div class="port_sub1">
+                <a href="https://arpit2298.github.io/vegan-store/" target="_blank"> <i class="port_icon fas fa-link fa-3x"></i> </a>
+            </div>
         </div>
 
-        <div class="port_img2"></div>
+        <div class="port_img2">
+            <div class="port_sub2">
+                <a href="https://arpit2298.github.io/Coffee_Templet/" target="_blank"> <i class="port_icon fas fa-link fa-3x"></i> </a>
+            </div>
+        </div>
+
+        <div class="port_img3">
+            <div class="port_sub3">
+                <a href="https://arpit2298.github.io/Saloon_template/" target="_blank"> <i class="port_icon fas fa-link fa-3x"></i> </a>
+            </div>
+        </div>
+
+        <div class="port_img4">
+            <div class="port_sub4">
+                <a href="https://arpit2298.github.io/Summer_collection/" target="_blank"> <i class="port_icon fas fa-link fa-3x"></i> </a>
+            </div>
+        </div>
     </div>
 
     <div id="i4" class="resume">
@@ -542,30 +139,30 @@
 
             <h4>3) S.S.C(SCIENCE)</h4>
             <h5>From, 2012 - 2013</h5>
-            <p><a href="https://padra.zenschools.org/" target="_blank"><em>Zen School</em></a><em>,Padra.</em></p>   
+            <p><a href="https://padra.zenschools.org/" target="_blank"><em>Zen School</em></a><em>,Padra.</em></p>
             <p>Gujarat Secondary Board, Gujarat (Gujarati Medium)</p>
             <h5><strong>Percentage</strong></h5>
-            <p><em>75.0%</em></p> 
-            
-            
+            <p><em>75.0%</em></p>
+
+
         </div>
 
-    </div> 
-    
+    </div>
+
     <div id="i5" class="contact">
 
-         <h2><i class="fas fa-comments"></i> <u>Con</u>tact</h2>   
+        <h2><i class="fas fa-comments"></i> <u>Con</u>tact</h2>
 
         <div><input class="info" type="text" placeholder="Name"></div>
-            <div><input class="info" type="number" placeholder="Phone"></div>
-            
-            <div><input class="info" type="email" placeholder="Email"></div>
-            <textarea name="form[data][4][1]" rows="5" data-form-field="Message" placeholder="Message"  class="info"></textarea>
+        <div><input class="info" type="number" placeholder="Phone"></div>
 
-            <div>
-                <button class="btn_foot">SUBMIT NOW</button>
-            </div>
+        <div><input class="info" type="email" placeholder="Email"></div>
+        <textarea name="form[data][4][1]" rows="5" data-form-field="Message" placeholder="Message" class="info"></textarea>
+
+        <div>
+            <button class="btn_foot">SUBMIT NOW</button>
         </div>
+    </div>
     </div>
 </body>
 
