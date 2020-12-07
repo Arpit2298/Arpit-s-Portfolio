@@ -471,11 +471,11 @@ ul li:hover::after {
     box-shadow: 0px 0px 5px 0px gray;
 }
 
-.who i::before {
+.who h1 i::before {
     color: thistle;
 }
 
-.who :hover i::before {
+.who h1:hover i::before {
     color: indianred;
 }
 
@@ -509,4 +509,20 @@ ul li:hover::after {
 
 .contact :hover i::before {
     color: indianred;
+}
+
+.social {
+    width: 50%;
+    margin: auto;
+    height: 55px;
+    overflow: hidden;
+    margin: 20% 0 0 42%;
+}
+
+.social a:hover i {
+    transform: scale(1.2);
+}
+
+.icon0 {
+    padding: 0% 0 3% 3%;
 }
