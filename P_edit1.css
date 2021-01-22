@@ -9,7 +9,7 @@ body {
 
 .full_port {
     width: 100%;
-    height: 890vh;
+    height: 923vh;
     overflow: hidden;
     background-color: cadetblue;
 }
@@ -24,7 +24,7 @@ body {
 .nav_img {
     width: 100px;
     height: 100px;
-    background-image: url('https://res.cloudinary.com/dagcqvgd1/image/upload/v1609245167/Mine%20Portfolio/navimg_tj26a4.jpg');
+    background-image: url('Portfolio/port_imgs/IMG_13.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     margin: 10%;
@@ -69,6 +69,7 @@ ul li:hover a {
     background-color: transparent;
     font-size: 22px;
     color: #EA0F1E;
+    text-shadow: 1px 0px 2px black;
     font-weight: 500;
 }
 
@@ -137,7 +138,7 @@ ul li:hover::after {
 
 .who {
     width: 100%;
-    height: 600px;
+    height: 700px;
     overflow: hidden;
     background-image: url('https://res.cloudinary.com/dagcqvgd1/image/upload/v1607079522/Mine%20Portfolio/port_back_bndv1p.jpg');
     background-size: cover;
@@ -252,27 +253,27 @@ ul li:hover::after {
 
 .html {
     width: 90%;
-    background: linear-gradient(to left, rgb(16, 224, 144) 2%, black);
+    background: linear-gradient(to left, #EA0F1E 2%, black);
 }
 
 .css {
     width: 85%;
-    background: linear-gradient(to left, rgb(16, 224, 144) 2%, black);
+    background: linear-gradient(to left, #EA0F1E 2%, black);
 }
 
 .c_prog {
     width: 70%;
-    background: linear-gradient(to left, rgb(16, 224, 144) 2%, black);
+    background: linear-gradient(to left, #EA0F1E 2%, black);
 }
 
 .net {
     width: 60%;
-    background: linear-gradient(to left, rgb(16, 224, 144) 2%, black);
+    background: linear-gradient(to left, #EA0F1E 2%, black);
 }
 
 .port {
     width: 100%;
-    height: 350vh;
+    height: 2300px;
     background-image: url('https://res.cloudinary.com/dagcqvgd1/image/upload/v1607079522/Mine%20Portfolio/port_back_bndv1p.jpg');
     background-size: cover;
     background-position: 10% 0;
@@ -411,7 +412,7 @@ ul li:hover::after {
     position: absolute;
     border-left: 2px solid white;
     left: 26%;
-    top: 4558px;
+    top: 4688px;
     height: 642px;
 }
 
@@ -421,7 +422,7 @@ ul li:hover::after {
     border-bottom: 2px solid white;
     width: 20px;
     left: 26%;
-    top: 4558px;
+    top: 4688px;
 }
 
 .resume h4::before {
@@ -430,7 +431,7 @@ ul li:hover::after {
     border-bottom: 2px solid white;
     width: 20px;
     left: 26%;
-    top: 4695px;
+    top: 4828px;
 }
 
 .resume h3::before {
@@ -439,7 +440,7 @@ ul li:hover::after {
     border-bottom: 2px solid white;
     width: 20px;
     left: 26%;
-    top: 4967px;
+    top: 5097px;
 }
 
 .resume h3::after {
@@ -448,11 +449,11 @@ ul li:hover::after {
     border-bottom: 2px solid white;
     width: 30px;
     left: 25%;
-    top: 5200px;
+    top: 5328px;
 }
 
 .resume h2 {
-    padding-top: 5%;
+    padding-top: 3%;
     font-weight: 300;
     padding-left: 5%;
     font-size: 35px;
@@ -493,7 +494,7 @@ ul li:hover::after {
 
 .contact {
     width: 100%;
-    height: 600px;
+    height: 670px;
     background-image: url('https://res.cloudinary.com/dagcqvgd1/image/upload/v1607079522/Mine%20Portfolio/port_back_bndv1p.jpg');
     background-size: cover;
     background-position: 10% 0;
@@ -517,8 +518,9 @@ ul li:hover::after {
     width: 90%;
     height: 500px;
     float: left;
-    margin: 4% 0 0 0%;
-    box-shadow: 0 0 5px 1px black;
+    clear: both;
+    margin: 15% 0 0 0%;
+    box-shadow: 0 0 2px 0px black;
 }
 
 .contact h2 {
