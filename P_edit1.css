@@ -206,7 +206,7 @@ ul li:hover::after {
 }
 
 .skill h2 {
-    padding-top: 5%;
+    padding-top: 1%;
     padding-left: 5%;
     font-size: 35px;
     font-weight: 300;
@@ -412,7 +412,7 @@ ul li:hover::after {
     position: absolute;
     border-left: 2px solid white;
     left: 26%;
-    top: 4688px;
+    top: 4670px;
     height: 642px;
 }
 
@@ -422,7 +422,7 @@ ul li:hover::after {
     border-bottom: 2px solid white;
     width: 20px;
     left: 26%;
-    top: 4688px;
+    top: 4670px;
 }
 
 .resume h4::before {
@@ -431,7 +431,7 @@ ul li:hover::after {
     border-bottom: 2px solid white;
     width: 20px;
     left: 26%;
-    top: 4828px;
+    top: 4810px;
 }
 
 .resume h3::before {
@@ -440,7 +440,7 @@ ul li:hover::after {
     border-bottom: 2px solid white;
     width: 20px;
     left: 26%;
-    top: 5097px;
+    top: 5080px;
 }
 
 .resume h3::after {
@@ -449,11 +449,11 @@ ul li:hover::after {
     border-bottom: 2px solid white;
     width: 30px;
     left: 25%;
-    top: 5328px;
+    top: 5310px;
 }
 
 .resume h2 {
-    padding-top: 3%;
+    padding-top: 2%;
     font-weight: 300;
     padding-left: 5%;
     font-size: 35px;
