@@ -22,13 +22,14 @@ body {
 }
 
 .nav_img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     background-image: url('https://res.cloudinary.com/dagcqvgd1/image/upload/v1611298790/Mine%20Portfolio/IMG_13_m7mbqi.jpg');
-    background-size: cover;
+    background-size: 115%;
+    background-position: -10px -7px;
     background-repeat: no-repeat;
-    margin: 10%;
-    border: 10px solid black;
+    margin: 8%;
+    border: 5px solid black;
     border-radius: 80px 80px;
 }
 
@@ -318,7 +319,7 @@ ul li:hover::after {
     height: 350px;
     float: left;
     border-radius: 10px 10px;
-    background: repeating-radial-gradient( white, rgba(0, 0, 0, 0.384));
+    background: repeating-radial-gradient( white, rgba(0, 0, 0, 0.096));
 }
 
 .por1_img {
