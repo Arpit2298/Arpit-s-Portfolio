@@ -1,0 +1,1209 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.full_port {
+    width: 100%;
+    overflow: auto;
+}
+
+.nav_vertical {
+    width: 243px;
+    height: 100vh;
+    position: fixed;
+    background: linear-gradient(to bottom, #025E52 1%, #09071B 55%, black 85%);
+    /* background-color: red; */
+    /* #761C1C #EA0026 */
+}
+
+.nav_img {
+    width: 120px;
+    height: 120px;
+    background-image: url('https://res.cloudinary.com/dagcqvgd1/image/upload/v1611298790/Mine%20Portfolio/IMG_13_m7mbqi.jpg');
+    background-size: 115%;
+    background-position: -10px -7px;
+    background-repeat: no-repeat;
+    margin: 6%;
+    border: 5px solid black;
+    border-radius: 80px 80px;
+}
+
+.full_body {
+    width: 82%;
+    float: right;
+}
+
+.bar ul {
+    width: 100%;
+    /* height: 100vh; */
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.bar ul li {
+    width: 150px;
+    text-align: justify;
+    transition: 0.8s;
+    margin: 5% 0 0 8%;
+}
+
+.bar ul li a {
+    font-size: 22px;
+    line-height: 50px;
+    color: #fafafa;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.2s;
+}
+
+.bar ul li:hover a {
+    background-color: transparent;
+    font-size: 22px;
+    color: #2DFFC6;
+    text-shadow: 1px 0px 2px black;
+    font-weight: 500;
+}
+
+.bar ul li:hover::before {
+    left: -5px;
+    color: white;
+}
+
+.bar ul li::before {
+    content: '[';
+    font-size: 27px;
+    position: relative;
+    left: 5px;
+    transition: 0.5s;
+    color: transparent;
+}
+
+.bar ul li::after {
+    content: ']';
+    position: relative;
+    left: 0px;
+    font-size: 27px;
+    transition: 0.5s;
+    color: transparent;
+}
+
+.bar ul li:hover::after {
+    left: 6px;
+    color: white;
+}
+
+.banner {
+    overflow: hidden;
+    width: 100%;
+    height: 730px;
+    background-image: url('https://res.cloudinary.com/dagcqvgd1/image/upload/v1609245164/Mine%20Portfolio/Banner_face_b3vplv.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 40% 0%;
+}
+
+.banner h3 {
+    font-size: 130px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: 8% 0 0 10%;
+}
+
+.banner h2 {
+    font-size: 130px;
+    font-family: 'Poppins', sans-serif;
+    color: #025E52;
+    position: relative;
+    top: -90px;
+    left: 10%;
+}
+
+.banner h1 {
+    font-size: 130px;
+    font-family: 'Poppins', sans-serif;
+    color: #025E52;
+    position: relative;
+    top: -180px;
+    left: 10%;
+}
+
+.who {
+    width: 100%;
+    /* height: 700p; */
+    /* overflow: hidden; */
+    background-color: #fafafa;
+}
+
+.who h1 {
+    font-family: 'RocknRoll One', sans-serif;
+    padding-left: 5%;
+    font-size: 35px;
+    font-weight: 600;
+    color: black;
+}
+
+.who h2 {
+    width: 90%;
+    font-family: 'Noto Sans', sans-serif;
+    padding-left: 9%;
+    font-size: 20px;
+    color: black;
+}
+
+.who h3 {
+    font-family: 'RocknRoll One', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+
+.who p {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    padding-left: 8%;
+    color: black;
+}
+
+.div {
+    height: 300px;
+}
+
+.social {
+    width: 400px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.social a:hover i {
+    transform: scale(1.2);
+}
+
+.icon0 {
+    padding: 0% 0 0% 3%;
+}
+
+.List {
+    width: 500px;
+    font-size: 22px;
+    text-align: left;
+    margin: 20px 0 0px 45px;
+    color: thistle;
+}
+
+.skill {
+    overflow: hidden;
+    width: 100%;
+    height: 750px;
+    background-color: black;
+    /* background-image: url('https://res.cloudinary.com/dagcqvgd1/image/upload/v1607079524/Mine%20Portfolio/maxresdefault_hhywi1.jpg');
+    background-size: cover;
+    background-position: 20% 10%;*/
+    /* background-attachment: fixed; */
+}
+
+.skill h2 {
+    padding: 1% 0 0 5%;
+    font-size: 35px;
+    font-weight: 300;
+    font-family: 'RocknRoll One', sans-serif;
+    color: white;
+}
+
+.skill h3 {
+    font-size: 18px;
+    color: white;
+    padding-left: 10%;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+.skill p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    padding-left: 10%;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    height: 20px;
+    background-color: rgba(221, 221, 221, 0.575);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px cadetblue;
+}
+
+.skills {
+    padding: 10px 0;
+    color: white;
+    border-radius: 5px;
+}
+
+.html {
+    width: 90%;
+    background: linear-gradient(to left, #01231E 60%, #09071B);
+}
+
+.css {
+    width: 85%;
+    background: linear-gradient(to left, #01231E 60%, #09071B);
+}
+
+.c_prog {
+    width: 70%;
+    background: linear-gradient(to left, #01231E 60%, #09071B);
+}
+
+.net {
+    width: 60%;
+    background: linear-gradient(to left, #01231E 60%, #09071B);
+}
+
+.Jquery {
+    width: 75%;
+    background: linear-gradient(to left, #01231E 60%, #09071B);
+}
+
+
+/* ............................................Prtfolio part....................................................... */
+
+.port {
+    width: 100%;
+    background-color: #fafafa;
+    overflow: hidden;
+}
+
+.port h2 {
+    padding: 1% 0 0 5%;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'RocknRoll One', sans-serif;
+    color: black;
+}
+
+
+/*------------------------------------------------------Filter Gallery----------------------------------------  */
+
+.label-text h4 {
+    color: white;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+@media (max-width: 575.98px) {
+    .label-text h4 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .label-text h4 {
+        font-size: 20px;
+    }
+}
+
+.container3 {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+}
+
+@media (min-width: 576px) {
+    .container3 {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container3 {
+        max-width: 720px;
+    }
+    .portfolio-tab ul {
+        padding: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .container3 {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container3 {
+        max-width: 1140px;
+    }
+}
+
+.template-btn {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 12px 20px;
+    display: inline-block;
+    background: transparent;
+    cursor: pointer;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.template-btn:hover {
+    color: white;
+    background: #f28500;
+}
+
+.portfolio-section {
+    padding: 0 40px;
+    transition: 1.3s;
+    box-sizing: border-box;
+    /* height: auto; */
+    z-index: 0;
+}
+
+.portfolio-tab ul {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.portfolio-tab ul li {
+    color: #000;
+    background: transparent;
+    display: inline;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px 16px;
+    border: 2px solid #01231E;
+    margin: 0 5px;
+    cursor: pointer;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    -webkit-tap-highlight-color: transparent;
+}
+
+@media (max-width: 575.98px) {
+    .portfolio-tab ul li {
+        display: block;
+        margin: 10px auto;
+        max-width: 200px;
+    }
+}
+
+.portfolio-tab ul li:hover {
+    background: #025E52;
+    color: #fff
+}
+
+.portfolio-tab ul .active {
+    background: #025E52;
+    color: #fff
+}
+
+.clearfix:after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+.portfolio-grid {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 300px;
+}
+
+@media (max-width: 768px) {
+    .portfolio-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (min-width: 768.1px) and (max-width: 991px) {
+    .portfolio-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.portfolio-grid .portfolio {
+    display: none;
+    overflow: hidden;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #01231E;
+}
+
+.portfolio-wrapper {
+    overflow: hidden;
+    position: relative !important;
+    cursor: pointer;
+}
+
+.portfolio-bg {
+    width: 100%;
+    height: 260px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 1s;
+    transform: scale(1);
+}
+
+.portfolio:hover .portfolio-bg {
+    transform: scale(1.2)
+}
+
+.first .portfolio-bg {
+    background-image: url('images/Login\ 1.png');
+}
+
+.second .portfolio-bg {
+    background-image: url('images/Login\ 2.png');
+}
+
+.third .portfolio-bg {
+    background-image: url('images/Login\ 3.png');
+}
+
+.four .portfolio-bg {
+    background-image: url('images/template\ 1.png');
+}
+
+.five .portfolio-bg {
+    background-image: url('images/template\ 2.png');
+}
+
+.six .portfolio-bg {
+    background-image: url('images/template\ 3.png');
+}
+
+.seven .portfolio-bg {
+    background-image: url('images/template\ 4.png');
+}
+
+.eight .portfolio-bg {
+    background-image: url('images/price\ list\ 1.png');
+}
+
+.nine .portfolio-bg {
+    background-image: url('images/price\ list\ 2.png');
+}
+
+
+/* .ten .portfolio-bg {
+    background-image: url('images/price\ list\ 3.jpg');
+} */
+
+.eleven .portfolio-bg {
+    background-image: url('images/Icon\ effect.png');
+}
+
+.twelve .portfolio-bg {
+    background-image: url('images/hover\ effect.png');
+}
+
+.thirteen .portfolio-bg {
+    background-image: url('images/card-1.png');
+}
+
+.fourteen .portfolio-bg {
+    background-image: url('images/card-2.png');
+}
+
+.portfolio .label {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden
+}
+
+.portfolio .label-bg {
+    background: #232323;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1px;
+}
+
+.portfolio .label-text {
+    color: #fff;
+    position: relative;
+    z-index: 500;
+    padding: 50px 20px;
+}
+
+.portfolio:hover .label {
+    opacity: 1;
+    visibility: visible;
+}
+
+.portfolio .text-category {
+    display: block;
+}
+
+.portfolio .template-btn {
+    background: #025E52;
+    border: 1px solid #01231E;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: 500
+}
+
+
+/* .....................................Resume part............................................... */
+
+.resume {
+    width: 100%;
+    height: 750px;
+    background-color: black;
+    overflow: hidden;
+}
+
+.resume h2 {
+    padding-top: 2%;
+    font-weight: 300;
+    padding-left: 5%;
+    font-size: 35px;
+    font-family: 'RocknRoll One', sans-serif;
+    color: white;
+}
+
+.edu_container {
+    width: 70%;
+    margin: auto;
+    padding: 10px 30px;
+    border-radius: 20px 20px;
+    text-align: left;
+    margin-bottom: 30px;
+    background: linear-gradient(to right, #09071b, #025e525e, #09071B);
+    box-shadow: 0px 0px 5px 0px cadetblue;
+}
+
+.resume .edu_container i {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.resume h4 {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 5px 0 0 25px;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+}
+
+.resume h5 {
+    margin-block-end: 0;
+    color: white;
+}
+
+.resume p {
+    font-size: 18px;
+    color: white;
+}
+
+.resume a {
+    color: darkorange;
+    margin: 5px 0 0 25px;
+    font-weight: 600;
+}
+
+
+/* ........................................Contact part.................................................... */
+
+.contact {
+    width: 100%;
+    height: 100vh;
+    background-color: #fafafa;
+    font-family: 'RocknRoll One', sans-serif;
+    overflow: hidden;
+}
+
+.foot_box {
+    width: 50%;
+    height: 600px;
+    float: left;
+    text-align: center;
+}
+
+.map_box {
+    width: 90%;
+    height: 450px;
+    float: left;
+    clear: both;
+    box-shadow: 0 0 5px 0px cadetblue;
+    border-radius: 25px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.contact h2 {
+    padding-left: 6%;
+    font-size: 35px;
+    color: black;
+}
+
+.info {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    padding: 2%;
+    margin: 5% 0 0 10%;
+    width: 70%;
+    outline: none;
+    box-shadow: 0 0 2px 0px black;
+    border-radius: 25px;
+    border: 1px solid #025E52;
+}
+
+.contact ::placeholder {
+    padding-left: 25px;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+.foot_btn {
+    width: 150px;
+    height: 38px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    margin: 5% 0 0 10%;
+    border-radius: 50px 50px;
+    border: none;
+    color: #025E52;
+    border: 2px solid #025E52;
+    transition: 1s;
+}
+
+.foot_btn a {
+    text-decoration: none;
+    color: #025E52;
+    font-weight: 800;
+}
+
+.foot_btn:hover {
+    background: linear-gradient(to right, #09071b, #025E52, #09071B);
+    border: 2px solid #025E52;
+    border-radius: 50px 50px;
+}
+
+.foot_btn:hover a {
+    color: white;
+    font-weight: 500;
+}
+
+.who h1 i::before {
+    color: #025E52;
+}
+
+.who h1:hover i::before {
+    color: #2DFFC6;
+}
+
+.skill i::before {
+    color: #025E52;
+}
+
+.skill :hover i::before {
+    color: #2DFFC6;
+}
+
+.port i:first-child:before {
+    color: #025E52;
+}
+
+.port :hover i:first-child:before {
+    color: #2DFFC6;
+}
+
+.resume i::before {
+    color: #025E52;
+}
+
+.resume :hover i::before {
+    color: #2DFFC6;
+}
+
+.contact i::before {
+    color: #025E52;
+}
+
+.contact h2:hover i::before {
+    color: #2DFFC6;
+}
+
+.social01 {
+    width: 100%;
+    margin: auto;
+    height: 55px;
+    overflow: hidden;
+    margin: 10% 0 0 -7px;
+}
+
+.social01 a:hover i {
+    transform: scale(1.2);
+}
+
+.icon001 {
+    padding: 0;
+}
+
+
+/* ..................................Responsive.............................................. */
+
+@media only screen and (max-width:1440px) and ( min-width:1023px) {
+    .nav_vertical {
+        width: 250px;
+    }
+    .full_body {
+        width: 83%;
+    }
+    nav ul li {
+        margin: 4% 0 0 7%;
+    }
+    .who .social {
+        margin-bottom: 50px;
+    }
+    .port_ham #menuArea1 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .nav_vertical {
+        width: 200px;
+    }
+    .full_body {
+        width: 81%;
+    }
+    ul li {
+        margin: 5% 0 0 -15%;
+    }
+    .nav_img {
+        width: 100px;
+        height: 100px;
+        margin-left: 10px;
+    }
+    .social01 {
+        margin: 10% 0 0 -24px;
+    }
+    .banner {
+        background-position: 70% 0%;
+    }
+    .banner h3 {
+        font-size: 100px;
+        margin: 22% 0 0 5%;
+    }
+    .banner h2 {
+        font-size: 100px;
+        left: 5%;
+    }
+    .banner h1 {
+        font-size: 120px;
+        left: 5%;
+    }
+    .who {
+        width: 100%;
+    }
+    .who h1 {
+        font-size: 30px;
+    }
+    .who h2 {
+        font-size: 15px;
+    }
+    .who h3 {
+        font-size: 20px;
+    }
+    .who p {
+        font-size: 15px;
+    }
+    .List {
+        width: 40%;
+        margin: 20px 0 0 65px;
+    }
+    .div {
+        height: 220px;
+    }
+    .map_box {
+        height: 400px;
+    }
+    /* ...............portfolio part..................... */
+    .portfolio-tab ul li {
+        display: inline-block;
+        padding: 5px 10px;
+        margin: 2px 0px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .who .social {
+        margin-bottom: 80px;
+    }
+    .nav_vertical {
+        width: 100%;
+        height: 80px;
+        position: fixed;
+        background: linear-gradient(to bottom, #025E52 1%, #09071B 55%, black 85%);
+        z-index: 10;
+    }
+    .full_body {
+        width: 100%;
+        float: right;
+    }
+    .bar {
+        display: none;
+    }
+    /* ................................................................. */
+    #menuArea {
+        display: block;
+    }
+    #menuArea img {
+        width: 60px;
+        transform: translate(20px, 10px);
+    }
+    .port_ham #menuArea1 {
+        display: none;
+    }
+    /* .................................hamburger.................................... */
+    #menuArea input {
+        display: none;
+    }
+    .open {
+        background-color: white;
+        width: 24px;
+        height: 4px;
+        display: block;
+        border-radius: 2px;
+        cursor: pointer;
+        position: relative;
+        top: 8px;
+    }
+    .open:before {
+        content: "";
+        background-color: white;
+        width: 24px;
+        height: 4px;
+        display: block;
+        border-radius: 2px;
+        position: relative;
+        top: -8px;
+        transform: rotate(0deg);
+        transition: all 0.3s ease;
+    }
+    .open:after {
+        content: "";
+        background-color: white;
+        width: 24px;
+        height: 4px;
+        display: block;
+        border-radius: 2px;
+        position: relative;
+        top: 4px;
+        transform: rotate(0deg);
+        transition: all 0.3s ease;
+    }
+    .menuOpen {
+        width: 24px;
+        height: 20px;
+        display: block;
+        padding: 0 1px;
+        cursor: pointer;
+        position: absolute;
+        right: 45px;
+        top: 30px;
+    }
+    .menuOpen:hover .open:before {
+        top: -9px;
+    }
+    .menuOpen:hover .open:after {
+        top: 5px;
+    }
+    .menu {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        background: #025e52b7;
+    }
+    .menu .menuContent {
+        position: relative;
+        left: 35px;
+        text-align: center;
+    }
+    .menu ul {
+        list-style: none;
+        display: inline;
+        text-align: center;
+    }
+    .menu ul li {
+        text-align: center;
+    }
+    .menu ul li a {
+        display: block;
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        transition: color 0.2s;
+        text-transform: uppercase;
+        padding: 10px 0;
+    }
+    .menu ul li a:hover {
+        color: #191847;
+    }
+    .menu ul li:hover {
+        background: #47cebc;
+    }
+    .menuEffects {
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.5s, visibility 0.5s;
+    }
+    .menuEffects ul {
+        transform: translateY(0%);
+        transition: all 0.5s;
+    }
+    #menuToggle:checked~.menuEffects {
+        opacity: 1;
+        visibility: visible;
+        transition: opacity 0.5s;
+    }
+    #menuToggle:checked~.menuEffects ul {
+        opacity: 1;
+    }
+    #menuToggle:checked~.menuOpen .open {
+        background-color: transparent;
+    }
+    #menuToggle:checked~.menuOpen .open:before {
+        content: "";
+        background-color: white;
+        transform: rotate(45deg);
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+    }
+    #menuToggle:checked~.menuOpen .open:after {
+        content: "";
+        background-color: white;
+        transform: rotate(-45deg);
+        position: relative;
+        top: 0;
+        right: 0;
+        z-index: 1;
+    }
+    #menuToggle:not(:checked)~.menuEffects ul {
+        transform: translateY(-30%);
+    }
+}
+
+@media only screen and (max-width:426px) {
+    /* ................................................................. */
+    .port_ham {
+        position: relative;
+        z-index: 10;
+    }
+    .port_ham #menuArea1 {
+        display: block;
+        height: 0;
+    }
+    .portfolio-tab {
+        display: none;
+    }
+    /* .................................hamburger.................................... */
+    .port_ham #menuArea1 input {
+        display: none;
+    }
+    .port_ham .open1 {
+        background-color: black;
+        width: 44px;
+        height: 4px;
+        display: block;
+        border-radius: 2px;
+        cursor: pointer;
+        position: relative;
+        top: 8px;
+    }
+    .port_ham .open1:before {
+        content: "";
+        background-color: black;
+        width: 44px;
+        height: 4px;
+        display: block;
+        border-radius: 2px;
+        position: relative;
+        top: -8px;
+        transform: rotate(0deg);
+        transition: all 0.3s ease;
+    }
+    .port_ham .open1:after {
+        content: "";
+        background-color: black;
+        width: 44px;
+        height: 4px;
+        display: block;
+        border-radius: 2px;
+        position: relative;
+        top: 4px;
+        transform: rotate(0deg);
+        transition: all 0.3s ease;
+    }
+    .port_ham .menuOpen1 {
+        width: 24px;
+        height: 20px;
+        display: block;
+        /* padding: 0 1px; */
+        cursor: pointer;
+        position: absolute;
+        left: 190px;
+        top: 20px;
+        z-index: 8;
+    }
+    .port_ham .menuOpen1:hover .open1:before {
+        top: -9px;
+    }
+    .port_ham .menuOpen1:hover .open1:after {
+        top: 5px;
+    }
+    .port_ham .menu1 {
+        /* position: fixed; */
+        width: 100vw;
+        /* height: 86%; */
+        /* bottom: 0;
+        left: 0; */
+        background: #025e52b7;
+        /* z-index: 10; */
+    }
+    .port_ham .menu1 .menuContent1 {
+        position: relative;
+        left: 30px;
+        text-align: center;
+    }
+    .port_ham .menu1 ul {
+        list-style: none;
+        display: inline;
+        text-align: center;
+    }
+    .port_ham .menu1 ul li {
+        text-align: center;
+        padding: 10px 0;
+        color: white;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+    .port_ham .menu1 ul li:hover {
+        background: #47cebc;
+    }
+    .port_ham .menuEffects1 {
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.5s, visibility 0.5s;
+    }
+    .port_ham .menuEffects1 ul {
+        transform: translateY(0%);
+        transition: all 0.5s;
+    }
+    .port_ham #menuToggle1:checked~.menuEffects1 {
+        opacity: 1;
+        visibility: visible;
+        transition: opacity 0.5s;
+    }
+    .port_ham #menuToggle1:checked~.menuEffects1 ul {
+        opacity: 1;
+    }
+    .port_ham #menuToggle1:checked~.menuOpen1 .open1 {
+        background-color: transparent;
+    }
+    .port_ham #menuToggle1:checked~.menuOpen1 .open1:before {
+        content: "";
+        background-color: black;
+        transform: rotate(45deg);
+        position: absolute;
+        top: 0;
+        right: -150px;
+        z-index: 1;
+    }
+    .port_ham #menuToggle1:checked~.menuOpen1 .open1:after {
+        content: "";
+        background-color: black;
+        transform: rotate(-45deg);
+        position: relative;
+        top: 0;
+        right: -150px;
+        z-index: 1;
+    }
+    .port_ham #menuToggle1:not(:checked)~.menuEffects1 ul {
+        transform: translateY(-30%);
+    }
+    /* ...............................Banner..................................... */
+    .text_bn {
+        position: relative;
+        bottom: -350px;
+        left: -15px;
+    }
+    .text_bn h1,
+    .text_bn h2,
+    .text_bn h3 {
+        font-size: 90px;
+    }
+    /* .................................skills...................................... */
+    .skill p {
+        font-size: 15px;
+    }
+    .skill h3 {
+        font-size: 15px;
+    }
+    /* ..............................Who part....................................... */
+    .who .social {
+        margin-top: 350px;
+        margin-bottom: 70px;
+    }
+    .List {
+        width: 80%;
+    }
+    /* ..........................resume................................... */
+    .resume {
+        height: auto;
+    }
+    .resume h4 {
+        font-size: 15px;
+    }
+    /* .....................contact part.............................. */
+    .contact {
+        height: 1000px;
+    }
+    .foot_content {
+        display: grid;
+        grid-template-rows: repeat(1, 410px);
+        grid-template-columns: repeat(1, 95%);
+        margin: auto;
+    }
+    .foot_box {
+        width: 100%;
+    }
+    .map_box {
+        width: 100%;
+        margin-left: 10px;
+    }
+    .map {
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+}
