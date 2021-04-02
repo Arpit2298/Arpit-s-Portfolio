@@ -777,6 +777,11 @@ iframe {
     display: none;
 }
 
+#menuArea input {
+    display: none;
+}
+
+
 
 /* ..................................Responsive.............................................. */
 
