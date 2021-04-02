@@ -463,39 +463,39 @@ body {
 }
 
 .first .portfolio-bg {
-    background-image: url('images/Login\ 1.png');
+    background-image: url('https://res.cloudinary.com/dagcqvgd1/image/upload/v1617351528/Mine%20Portfolio/Login_1_lij68j.png');
 }
 
 .second .portfolio-bg {
-    background-image: url('images/Login\ 2.png');
+    background-image: url('https://res.cloudinary.com/dagcqvgd1/image/upload/v1617351528/Mine%20Portfolio/Login_2_ipocey.png');
 }
 
 .third .portfolio-bg {
-    background-image: url('images/Login\ 3.png');
+    background-image: url('https://res.cloudinary.com/dagcqvgd1/image/upload/v1617351526/Mine%20Portfolio/Login_3_kkq4lk.png');
 }
 
 .four .portfolio-bg {
-    background-image: url('images/template\ 1.png');
+    background-image: url('https://res.cloudinary.com/dagcqvgd1/image/upload/v1609245166/Mine%20Portfolio/home_care_solutions_tht9gs.png');
 }
 
 .five .portfolio-bg {
-    background-image: url('images/template\ 2.png');
+    background-image: url('https://res.cloudinary.com/dagcqvgd1/image/upload/v1617351526/Mine%20Portfolio/template_2_z5nmzv.png');
 }
 
 .six .portfolio-bg {
-    background-image: url('images/template\ 3.png');
+    background-image: url('https://res.cloudinary.com/dagcqvgd1/image/upload/v1617351528/Mine%20Portfolio/template_3_cqsnyn.png');
 }
 
 .seven .portfolio-bg {
-    background-image: url('images/template\ 4.png');
+    background-image: url('https://res.cloudinary.com/dagcqvgd1/image/upload/v1607079540/Mine%20Portfolio/summer_SS_cmwgoc.png');
 }
 
 .eight .portfolio-bg {
-    background-image: url('images/price\ list\ 1.png');
+    background-image: url('https://res.cloudinary.com/dagcqvgd1/image/upload/v1617351526/Mine%20Portfolio/price_list_1_ewq30d.png');
 }
 
 .nine .portfolio-bg {
-    background-image: url('images/price\ list\ 2.png');
+    background-image: url('https://res.cloudinary.com/dagcqvgd1/image/upload/v1617351526/Mine%20Portfolio/price_list_2_zyfvvn.png');
 }
 
 
@@ -504,19 +504,19 @@ body {
 } */
 
 .eleven .portfolio-bg {
-    background-image: url('images/Icon\ effect.png');
+    background-image: url('https://res.cloudinary.com/dagcqvgd1/image/upload/v1617351529/Mine%20Portfolio/Icon_effect_xaxmn2.png');
 }
 
 .twelve .portfolio-bg {
-    background-image: url('images/hover\ effect.png');
+    background-image: url('https://res.cloudinary.com/dagcqvgd1/image/upload/v1617351527/Mine%20Portfolio/hover_effect_mcwv6b.png');
 }
 
 .thirteen .portfolio-bg {
-    background-image: url('images/card-1.png');
+    background-image: url('https://res.cloudinary.com/dagcqvgd1/image/upload/v1617351529/Mine%20Portfolio/card-1_vyxqnf.png');
 }
 
 .fourteen .portfolio-bg {
-    background-image: url('images/card-2.png');
+    background-image: url('https://res.cloudinary.com/dagcqvgd1/image/upload/v1617351527/Mine%20Portfolio/card-2_wrzggh.png');
 }
 
 .portfolio .label {
@@ -775,6 +775,9 @@ iframe {
 @media only screen and (max-width:1485px) {
     .full_body {
         width: 84%;
+    }
+    #menuArea img {
+        display: none;
     }
 }
 
