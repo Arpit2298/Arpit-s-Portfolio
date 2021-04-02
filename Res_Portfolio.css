@@ -777,7 +777,7 @@ iframe {
     display: none;
 }
 
-#menuArea input {
+#menuArea #menuToggle {
     display: none;
 }
 
