@@ -765,8 +765,18 @@ iframe {
     padding: 0;
 }
 
+.port_ham #menuArea1 {
+    display: none;
+}
+
 
 /* ..................................Responsive.............................................. */
+
+@media only screen and (max-width:1485px) {
+    .full_body {
+        width: 84%;
+    }
+}
 
 @media only screen and (max-width:1440px) and ( min-width:1023px) {
     .nav_vertical {
@@ -780,9 +790,6 @@ iframe {
     }
     .who .social {
         margin-bottom: 50px;
-    }
-    .port_ham #menuArea1 {
-        display: none;
     }
 }
 
