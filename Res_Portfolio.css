@@ -498,10 +498,9 @@ body {
     background-image: url('https://res.cloudinary.com/dagcqvgd1/image/upload/v1617351526/Mine%20Portfolio/price_list_2_zyfvvn.png');
 }
 
-
-/* .ten .portfolio-bg {
-    background-image: url('images/price\ list\ 3.jpg');
-} */
+.ten .portfolio-bg {
+    background-image: url('https://res.cloudinary.com/dagcqvgd1/image/upload/v1622450775/Mine%20Portfolio/template_5_mahnti.png');
+}
 
 .eleven .portfolio-bg {
     background-image: url('https://res.cloudinary.com/dagcqvgd1/image/upload/v1617351529/Mine%20Portfolio/Icon_effect_xaxmn2.png');
@@ -709,6 +708,9 @@ iframe {
     font-weight: 500;
 }
 
+
+/* ........................................end of contact part.............................................. */
+
 .who h1 i::before {
     color: #025E52;
 }
@@ -774,6 +776,10 @@ iframe {
 }
 
 .menu .menuContent {
+    display: none;
+}
+
+#menuArea input {
     display: none;
 }
 

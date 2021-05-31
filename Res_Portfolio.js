@@ -20,12 +20,12 @@ $(function() {
 
 
 
-// .............................................................
+// // .............................................................
 
-const toggle = document.querySelector('.menuOpen1 ')
-const navigation = document.querySelector('.menuEffects1')
+// const toggle = document.querySelector('.menuOpen1 ')
+// const navigation = document.querySelector('.menuEffects1')
 
-toggle.addEventListener('click', () => {
-    toggle.classList.toggle('active')
-    navigation.classList.toggle('active')
-})
+// toggle.addEventListener('click', () => {
+//     toggle.classList.toggle('active')
+//     navigation.classList.toggle('active')
+// })
